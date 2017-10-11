@@ -10,15 +10,18 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
 
     </head>
 <body>
     <!--NAVIGATION BAR-->
-    <div class="row">
+    <header>
       <?php
         include 'navbar.php';
       ?>
+    </header>
 
+    <main>
     <div class="row container content">
       <h4>Admission</h4>
       <p>
@@ -37,13 +40,11 @@
         </ol>
       </p>
     </div>
-
+  </main>
     <!--FOOTER-->
-    <div class="black row">
       <?php
         include 'footer.php';
       ?>
-    </div>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

@@ -1,7 +1,8 @@
        <nav>
         <div class="nav-wrapper">
-          <a href="index.php" class="brand-logo center"><img class="responsive-img materialboxed" height="30px" ="650"  src="images/logo.png"></a>
+          <a href="index.php" class="brand-logo center">Ashesi University</a>
           <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <link rel="stylesheet" type="text/css" href="css/style.css">
 
           <!--SIDE BAR -->
 
