@@ -16,9 +16,39 @@
 <body>
     <!--NAVIGATION BAR-->
     <header>
-      <?php
-        include 'navbar.php';
-      ?>
+       <nav>
+        <div class="nav-wrapper">
+          <a href="index.php" class="brand-logo center">Ashesi University</a>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <!--SIDE BAR -->
+
+          <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="user-view">
+                  <div class="background">
+                    <img class="responsive-img" src="images/ashesi1.jpg">
+                  </div>
+                  <a href="#!user"><img class="circle responsive-img" src="images/ashesi0.JPG"></a>
+                  <a href="#!name"><span class="red-text name">Ashesi University College</span></a>
+                </div>
+            </li>
+
+            <li><a href="admissions.php"><i class="material-icons">school</i>Admission</a></li>
+            <li><a href="academics.php"><i class="material-icons">book</i>Academics</a></li>
+            <li><a href="career_service.php"><i class="material-icons">work</i>Career Service</a></li>
+            <li><a href="operations.php"><i class="material-icons">all_inclusive</i>ODIP</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--CONTENT-->
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="images/ashesi1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="images/ashesi2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="images/ashesi3.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="images/ashesi4.jpg"></a>
+    </div>
     </header>
     <main>
     <div class="row container content">
@@ -56,10 +86,15 @@
       
     </div>
   </main>
-    <!--FOOTER-->
-      <?php
-        include 'footer.php';
-      ?>
+        <footer class="black page-footer">
+          <div class="container">
+          </div>
+          <div class="footer-copyright row">
+            <div class="container col s12">
+             Ashesi University College © <?php echo date("Y"); ?>
+            </div>
+          </div>
+        </footer>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
